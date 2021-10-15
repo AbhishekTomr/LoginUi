@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="login" class="login">
+    <div id="signup" class="signup">
+    <div id="cover" class="cover1">
+        <h2 id="moveh2" class="initialh2" onclick="orignalUI()">Sign Up</h2>
+        <form id="signup-panel" class="signup-panel">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        </form>
+        <button id="sign-up-button" class="sign-up-button" type="submit">Sign Up</button>
+        <div id="or-login" class="or-login-option or-login-option1">
+          <div id="disOp1" class="disOp1">
+            <span id="or-option" class="or-option">or</span>
+            <a href="javascript:void(0)" onclick="changeUI()" class="login-me">login</a>
+          </div>
+          <div id="login-form" class="login-form">
+            <h2 id="login-form-h2" class="login-form-h2">Sign In</h2>
+            <form id="login-form-panel" class="login-form-panel">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            </form>
+            <button id="sign-in-button" class="sign-in-button" type="submit">Sign In</button>
+
+          </div>
+        </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
