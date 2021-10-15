@@ -26,7 +26,7 @@ body{
     max-width: 400px;
     min-width: 350px;
     border-radius: 20px;
-    background-image: url('../media/bg.jpeg');
+    background-image: url('../media/bg.jpg');
     background-repeat: no-repeat;
     background-size: 140% 250%;
     box-shadow: 2px 2px 5px gray;
